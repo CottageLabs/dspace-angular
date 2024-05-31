@@ -6,3 +6,11 @@ rest:
 
 themes:
   - name: cottagelabs
+
+
+# Whether to enable media viewer for image and/or video Bitstreams (i.e. Bitstreams whose MIME type starts with 'image' or 'video').
+# When "image: true", this enables a gallery viewer where you can zoom or page through images.
+# When "video: true", this enables embedded video streaming.  This embedded video streamer also supports audio files.
+mediaViewer:
+  image: true
+  video: true
